@@ -12,6 +12,7 @@ const apps = [
     entry: "//localhost:10000", //默认会加载这个html 解析里面的js 动态的执行；子应用必须支持跨域
     container: "#vue", //容器名字
     activeRule: "/vue", //激活的路径
+    props: { a: 1 },
   },
   {
     name: "reactApp",
